@@ -1,65 +1,91 @@
-# Sistema-de-reparaciones
+# 📱 Sistema de Reparaciones
 
-Sistema desarrollado por el Ing. Evelio Escobar para un taller de reparación de Computadoras y hardware.
+![Laravel](https://img.shields.io/badge/Laravel-v8.0-red) ![PHP](https://img.shields.io/badge/PHP-7.4-blue) ![MySQL](https://img.shields.io/badge/MySQL-5.7.32-orange)
 
-## ✨ Descripción
+Este proyecto es un sistema de gestión de reparaciones, desarrollado con Laravel y MySQL. Permite registrar, gestionar y hacer seguimiento a las reparaciones de equipos electrónicos.
 
-El **Sistema-de-reparaciones** es una aplicación diseñada para gestionar las reparaciones de computadoras y hardware en un taller especializado. Permite registrar y seguir el progreso de las reparaciones, gestionar inventarios de piezas, y mantener un historial de los servicios prestados a cada cliente.
+## 📋 Tabla de Contenidos
+- [Instalación](#⚙️-instalación)
+- [Uso](#🚀-uso)
+- [Características](#✨-características)
+- [Tecnologías](#🛠️-tecnologías)
+- [Contribuciones](#🤝-contribuciones)
+- [Licencia](#📄-licencia)
+- [Contacto](#📧-contacto)
 
-## 🛠 Tech Stack
-
-### Lenguajes y Tecnologías
-
-- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
-- ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white)
-- ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-- ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)
-- ![MariaDB](https://img.shields.io/badge/-MariaDB-003545?logo=mariadb&logoColor=white)
-
-## 🚀 Instalación
+## ⚙️ Instalación
 
 1. Clona el repositorio:
     ```bash
     git clone https://github.com/EVELIO0318/Sistema-de-reparaciones.git
     ```
-2. Navega al directorio del proyecto:
-    ```bash
-    cd Sistema-de-reparaciones
-    ```
-3. Instala las dependencias:
+2. Instala las dependencias:
     ```bash
     composer install
     npm install
+    npm run dev
     ```
-4. Configura el archivo `.env`:
+3. Configura el archivo `.env`:
     ```bash
     cp .env.example .env
     php artisan key:generate
     ```
-5. Ejecuta las migraciones y seeders:
-    ```bash
-    php artisan migrate --seed
+4. Configura la base de datos en el archivo `.env`:
     ```
-6. Inicia el servidor de desarrollo:
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=nombre_base_de_datos
+    DB_USERNAME=tu_usuario
+    DB_PASSWORD=tu_contraseña
+    ```
+5. Ejecuta las migraciones:
+    ```bash
+    php artisan migrate
+    ```
+
+## 🚀 Uso
+
+1. Inicia el servidor local:
     ```bash
     php artisan serve
     ```
+2. Accede a la aplicación en tu navegador:
+    ```
+    http://127.0.0.1:8000
+    ```
 
-## 📚 Uso
+## ✨ Características
 
-Una vez instalado, puedes acceder al sistema a través de `http://localhost:8000` y comenzar a gestionar las reparaciones.
+- Gestión de usuarios y roles
+- Registro y seguimiento de reparaciones
+- Notificaciones por correo electrónico
+- Informes y estadísticas
 
-## 🤝 Contribuir
+## 🛠️ Tecnologías
 
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+- [Laravel](https://laravel.com/)
+- [PHP](https://www.php.net/)
+- [MySQL](https://www.mysql.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-1. Haz un fork del repositorio.
-2. Crea una rama con tu nueva funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
-3. Haz commit de tus cambios (`git commit -am 'Agrega nueva funcionalidad'`).
-4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
-5. Crea un nuevo Pull Request.
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir, por favor sigue estos pasos:
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Sube los cambios a tu rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+
+## 📧 Contacto
+
+Evelio Escobar - [tu-email@example.com](mailto:tu-email@example.com)
+
+¡Gracias por visitar nuestro proyecto!
