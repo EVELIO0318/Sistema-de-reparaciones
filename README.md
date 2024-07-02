@@ -1,74 +1,65 @@
 # Sistema-de-reparaciones
-Sistema desarrollado por el Ing. Evelio Escobar para un taller de reparacion de Computadoras y hardware
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Sistema desarrollado por el Ing. Evelio Escobar para un taller de reparación de Computadoras y hardware.
 
-## About Laravel
+## ✨ Descripción
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+El **Sistema-de-reparaciones** es una aplicación diseñada para gestionar las reparaciones de computadoras y hardware en un taller especializado. Permite registrar y seguir el progreso de las reparaciones, gestionar inventarios de piezas, y mantener un historial de los servicios prestados a cada cliente.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🛠 Tech Stack
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Lenguajes y Tecnologías
 
-## Learning Laravel
+- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
+- ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white)
+- ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+- ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)
+- ![MariaDB](https://img.shields.io/badge/-MariaDB-003545?logo=mariadb&logoColor=white)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🚀 Instalación
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/EVELIO0318/Sistema-de-reparaciones.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd Sistema-de-reparaciones
+    ```
+3. Instala las dependencias:
+    ```bash
+    composer install
+    npm install
+    ```
+4. Configura el archivo `.env`:
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
+5. Ejecuta las migraciones y seeders:
+    ```bash
+    php artisan migrate --seed
+    ```
+6. Inicia el servidor de desarrollo:
+    ```bash
+    php artisan serve
+    ```
 
-## Laravel Sponsors
+## 📚 Uso
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Una vez instalado, puedes acceder al sistema a través de `http://localhost:8000` y comenzar a gestionar las reparaciones.
 
-### Premium Partners
+## 🤝 Contribuir
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
-## Contributing
+1. Haz un fork del repositorio.
+2. Crea una rama con tu nueva funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
+3. Haz commit de tus cambios (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Crea un nuevo Pull Request.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📄 Licencia
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# Sistema-de-reparaciones
-Sistema desarrollado por el Ing. Evelio Escobar para un taller de reparacion de Computadoras y hardware
->>>>>>> 3c7bfb02ad4848d40d79b389a7e05377bc28dd47
-=======
-# Sistema-de-reparaciones
-Sistema desarrollado por el Ing. Evelio Escobar para un taller de reparacion de Computadoras y hardware
->>>>>>> 3c7bfb02ad4848d40d79b389a7e05377bc28dd47
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
