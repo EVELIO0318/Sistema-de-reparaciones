@@ -82,10 +82,10 @@ Este proyecto es un sistema de gestión de reparaciones, desarrollado con Larave
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+Este proyecto fue elaborado por parte del Ing. Evelio Escobar, todos los Derechos Reservados.
 
 ## 📧 Contacto
 
-Evelio Escobar - [tu-email@example.com](mailto:tu-email@example.com)
+Evelio Escobar - [evelio.villeda9@gmail.com](mailto:evelio.villeda9@gmail.com)
 
-¡Gracias por visitar nuestro proyecto!
+¡Gracias por visitar mi proyecto!
